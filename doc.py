@@ -44,7 +44,7 @@ First, we will extract features of the image by using CNN, and then we will feed
 #### Thus this algorithm is a good example where we are using concepts like  Image Processing,  Natural Language Processing, and  Transfer learning.
 
 
- For complete documentation checkout : 
+ For complete documentation checkout : https://github.com/Vivek1258/Automatic-Image-Captioning/blob/master/Project%20Report.pdf
 
  
 
