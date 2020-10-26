@@ -14,12 +14,13 @@ streamlit run app.py
 ```
 
 
-## METRICS
-
-There are various ways to measure the performance of an image captioning model like BLEU, ROUGE, CIDEr, METEOR, SPICE, etc. but out of these BLEU( Bilingual Evaluation Understudy) is most common and widely used in the evaluation of image annotation results, which is based on the n-gram precision. For this project, we will be using the BLUE score to check and compare the performance of our model. The principle of the BLEU measure is to calculate the distance between the evaluated and the reference sentences. BLEU method tends to give a higher score when the caption is closest to the length of the reference statement.
+## OUTPUT 
 
 
-## DATA EXPLORATION 
+
+
+
+## DATA 
 
 link : https://www.kaggle.com/shadabhussain/flickr8k
 
@@ -34,8 +35,11 @@ The dataset is small and the size is 1.14 GB.
 Thus this dataset is best for this project.
 
  
-
  
+## METRICS
+
+There are various ways to measure the performance of an image captioning model like BLEU, ROUGE, CIDEr, METEOR, SPICE, etc. but out of these BLEU( Bilingual Evaluation Understudy) is most common and widely used in the evaluation of image annotation results, which is based on the n-gram precision. For this project, we will be using the BLUE score to check and compare the performance of our model. The principle of the BLEU measure is to calculate the distance between the evaluated and the reference sentences. BLEU method tends to give a higher score when the caption is closest to the length of the reference statement.
+
 
 ## ALGORITHMS AND TECHNIQUES 
 
@@ -44,8 +48,4 @@ First, we will extract features of the image by using CNN, and then we will feed
 
 #### Thus this algorithm is a good example where we are using concepts like  Image Processing,  Natural Language Processing, and  Transfer learning.
 
-
-
-
- 
 
