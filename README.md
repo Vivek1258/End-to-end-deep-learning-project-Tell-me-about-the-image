@@ -15,7 +15,7 @@ streamlit run app.py
 
 
 ## OUTPUT 
-
+![Screenshot](images/sample.PNG)
 
 
 
