@@ -5,7 +5,8 @@ Machine Learning Engineer Nanodegree Capstone Project
 In this project, we will develop and deploy a Deep Learning model that can automatically generate captions for the given image. We will use the Flickr8K dataset to train our model and streamlit package to develop a simple UI so that users can play with it.
  
 
-## INSTALLATION 
+## INSTALLATION _
+
 ``` 
 git clone https://github.com/Vivek1258/Automatic-Image-Captioning.git
 cd Automatic-Image-Captioning
