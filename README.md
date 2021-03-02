@@ -1,8 +1,13 @@
 
-# Automatic-Image-Captioning
-Machine Learning Engineer Nanodegree Capstone Project
+# AIC(Automatic-Image-Captioning)- Bot
+### Machine Learning Engineer Nanodegree Capstone Project
 
-In this project, we will develop and deploy a Deep Learning model that can automatically generate captions for the given image. We will use the Flickr8K dataset to train our model and streamlit package to develop a simple UI so that users can play wit h it.
+
+![Github License](https://img.shields.io/aur/license/android-studio)
+![Code Coverage](https://img.shields.io/badge/coverage-80%25-green)
+![python Version](https://img.shields.io/pypi/pyversions/Django)
+
+In this project, I have developed a web application that can automatically generate Captions for the given Image using Deep Learning. The Deep Learning Model is developed, trained, and deployed(as a REST API ) on AWS Cloud using  SageMaker, Lambda Function, S3 Storage, and API GateWay services. I have used Streamlit UI to develop the Frontend of the web app. The FrontEnd is deployed on Heroku Cloud.
  
 
 ## INSTALLATION _
