@@ -9,7 +9,7 @@
  
 ## Table of content
 
-- [Project Overview ](#Project Overview )
+- [Project Overview ](#Project-Overview )
 - [Output](#Output)
 - [Data](#Data)
 - [Algothrims](#Algothrims)
@@ -20,7 +20,6 @@
 - [License](#license)
 - [Get Help](#get-help)
 - [Contact](#contact)
-- [Motivation](#motivation) 
 
 
 ## Project Overview
@@ -75,5 +74,36 @@ I got to learn advanced machine learning techniques and algorithms and how to pa
 
 
 
+## Built With
+
+Python
+
+TensorFlow 
+
+Keras 
+
+Streamlit UI
 
 
+## Contributing
+
+#### Issues
+In the case of a bug report, bugfix or suggestions, please feel free to open an issue.
+
+#### Pull request
+Pull requests are always welcome, and I will do my best to do reviews as fast as we can.
+
+
+## License
+
+This project is licensed under the [Apache License](https://github.com/Vivek1258/Django-Ecommerce-website-backend/blob/main/LICENSE)
+
+## Get Help
+
+- If appropriate, [open an issue](https://github.com/Vivek1258/End-to-end-deep-learning-project-Tell-me-about-the-image/issues) on GitHub
+
+## Contact 
+
+- Contact me on [LinkedIn](https://www.linkedin.com/in/vivek-mankar-182735184/) 
+- Email mankarvivek172000@gmail.com
+ 
