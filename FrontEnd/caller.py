@@ -1,14 +1,14 @@
-import numpy as np
-from PIL import Image
-
 import json 
 import requests
-
-
+import numpy as np
+from PIL import Image
 import tensorflow as tf 
 
 
 def extract_features(img, model):
+	
+    """ Function to extract features from an image using VGG16 model
+    	Returns a feature vector of length 1000 """ 
     
     newsize = (224, 224) 
     img = img.resize(newsize) 
