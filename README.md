@@ -32,8 +32,7 @@ In this project, I have developed a web application that can automatically gener
 
 ## Output 
  
-![image](https://user-images.githubusercontent.com/53163419/109760212-56a86a00-7c14-11eb-8933-239c0908d4c7.png)
-
+![image](https://user-images.githubusercontent.com/53163419/110332963-0d5a7f00-8047-11eb-84fb-733d804b781d.png)
 
 
 ## Data 
