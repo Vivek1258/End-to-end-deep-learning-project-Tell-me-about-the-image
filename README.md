@@ -54,8 +54,15 @@ Thus this dataset is best for this project.
 
 ## Algothrims
 
-We will use a combination of CNN(Convolutional Neural Network) and RNN(Recurrent Neural Network) to develop this system.
-First, we will extract features of the image by using CNN, and then we will feed this feature vector to an LSTM language model that will generate captions. Thus we will have a CNN Encoder and an LSTM Decoder. (LSTM is a special kind of RNN, capable of learning long-term dependencies). We will also use pre-trained models on a standard Imagenet dataset(provided in Keras) to develop the CNN encoder. We will use pre-trained GLOVE 200d embeddings for words to improve the performance of our language model.
+I have used a combination of CNN(Convolutional Neural Network) and RNN(Recurrent Neural Network) to develop this system. i.e. The model we will have a CNN Encoder and an LSTM Decoder.
+
+![image](https://user-images.githubusercontent.com/53163419/110330610-f8302100-8043-11eb-8534-bbc082af77c9.png)
+
+
+First, I have extracted the features of an image by using CNN, and then we will feed this feature vector to an LSTM language model that will generate captions.  (LSTM is a special kind of RNN, capable of learning long-term dependencies). 
+
+I have also used pre-trained models on a standard Imagenet dataset(provided in Keras) to develop the CNN encoder and GLOVE 200d embeddings for words to improve the performance of our language model.
+
 
 #### Thus this algorithm is a good example where we are using concepts like  Image Processing,  Natural Language Processing, and  Transfer learning.
 
@@ -63,7 +70,10 @@ First, we will extract features of the image by using CNN, and then we will feed
  
 ## Metrics
 
-There are various ways to measure the performance of an image captioning model like BLEU, ROUGE, CIDEr, METEOR, SPICE, etc. but out of these BLEU( Bilingual Evaluation Understudy) is most common and widely used in the evaluation of image annotation results, which is based on the n-gram precision. For this project, we will be using the BLUE score to check and compare the performance of our model. The principle of the BLEU measure is to calculate the distance between the evaluated and the reference sentences. BLEU method tends to give a higher score when the caption is closest to the length of the reference statement.
+There are various ways to measure the performance of an image captioning model like BLEU, ROUGE, CIDEr, METEOR, SPICE, etc. but out of these BLEU( Bilingual Evaluation Understudy) is most common and widely used in the evaluation of image annotation results. 
+
+
+For this project, I have used the BLUE score to check and compare the performance of our model. The principle of the BLEU measure is to calculate the distance between the evaluated and the reference sentences. BLEU method tends to give a higher score when the caption is closest to the length of the reference statement.
 
 
 ## Machine Learning Engineer Nanodegree 
