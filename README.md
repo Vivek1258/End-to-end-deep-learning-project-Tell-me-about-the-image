@@ -51,7 +51,7 @@ Thus this dataset is best for this project.
 
 
 
-## Algothrims
+## Algothrim
 
 I have used a combination of CNN(Convolutional Neural Network) and RNN(Recurrent Neural Network) to develop this system. i.e. The model we will have a CNN Encoder and an LSTM Decoder.
 
