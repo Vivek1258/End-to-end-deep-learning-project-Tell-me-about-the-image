@@ -41,10 +41,9 @@ The dataset used for this project is the “Flickr8K” dataset. Flickr8K datase
  - It is a labeled dataset. 
  - The dataset consists of 8000 photos.
  - There are 5 captions for each photo.
- - The dataset can be found at Kaggle
  - The dataset is small and the size is 1.14 GB.
- - Thus this dataset is best for this project.
-  
+ - The dataset can be found at Kaggle
+
 
 link : https://www.kaggle.com/shadabhussain/flickr8k
 
