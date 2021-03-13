@@ -37,19 +37,16 @@ In this project, I have developed a web application that can automatically gener
 
 ## Data 
 
+The dataset used for this project is the “Flickr8K” dataset. Flickr8K dataset includes images obtained from the Flickr web-site
+ - It is a labeled dataset. 
+ - The dataset consists of 8000 photos.
+ - There are 5 captions for each photo.
+ - The dataset can be found at Kaggle
+ - The dataset is small and the size is 1.14 GB.
+ - Thus this dataset is best for this project.
+  
+
 link : https://www.kaggle.com/shadabhussain/flickr8k
-
-
-The dataset used for this project is the “Flickr8K” dataset[3].
-Flickr8K dataset includes images obtained from the Flickr web-site
-It is a labeled dataset. 
-The dataset consists of 8000 photos.
-There are 5 captions for each photo.
-The dataset can be found at Kaggle[3]
-The dataset is small and the size is 1.14 GB.
-Thus this dataset is best for this project.
-
-
 
 ## Algothrim
 
