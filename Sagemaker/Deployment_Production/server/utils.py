@@ -8,6 +8,48 @@ from numpy import argmax
 
 from tok import num_to_word , word_to_num 
 
+import tensorflow as tf 
+
+from PIL import Image 
+
+def load_model():
+    
+    """ Function to load the model """
+    
+    model = tf.keras.applications.vgg16.VGG16()
+    model.layers.pop()
+    new_model = tf.keras.models.Model(inputs=model.inputs, outputs=model.layers[-1].output)
+    
+    print("Model Loaded ...") 
+    return new_model
+
+
+def extract_features(img):
+
+    """ 
+    Function to extract features from an image using VGG16 model
+    
+    Parameter :  A PIL Image object 
+        
+    Returns a feature vector of length 1000 
+    
+    """ 
+    
+    # newsize = (224, 224) 
+    # img = img.resize(newsize) 
+    
+    # reshape & prepare the image for the VGG model
+    image = tf.keras.preprocessing.image.img_to_array(img)
+    image = image.reshape((1, image.shape[0], image.shape[1], image.shape[2]))
+    image = tf.keras.applications.vgg16.preprocess_input(image)
+    
+    
+    model =  load_model()
+    
+    feature = model.predict(image, verbose=0)[0] # The output shape is (1, 1000) but we want only (1000,) 
+    
+    
+    return feature
 
 # tokenizer = load(open('tokenizer.pkl' ,'rb'))
 
