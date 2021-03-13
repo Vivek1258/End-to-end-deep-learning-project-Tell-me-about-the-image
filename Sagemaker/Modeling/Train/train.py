@@ -80,8 +80,8 @@ if __name__ == "__main__":
           [ X1train,  X2train ], 
           ytrain, 
           batch_size = BATCH__SIZE ,
-          epochs=1, 
-          verbose=1,
+          epochs=3, 
+          verbose=2,
           validation_data=( [ X1test,  X2test ] , ytest)
           )
           
