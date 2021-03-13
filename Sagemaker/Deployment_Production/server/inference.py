@@ -7,7 +7,9 @@ from pickle import load
 import numpy as np
 import tensorflow as tf 
 
-from utils import  id_to_word , texts_to_sequences 
+from PIL import Image 
+
+from utils import  id_to_word , texts_to_sequences , extract_features
 
 
 def handler(data, context):
@@ -20,7 +22,10 @@ def handler(data, context):
         (bytes, string): data to return to client, (optional) response content type
     """
     
-    feature = _process_input(data, context)
+    img = _process_input(data, context)
+    
+    
+    feature = extract_features(img)
     
     
     print("sending processed_input to context.rest_uri:", context.rest_uri)
@@ -102,9 +107,13 @@ def _process_input(data, context):
         
         d = json.loads(data.read().decode('utf-8'))
         
-        feature = np.asarray(d if len(d) else '')
+        arr = np.asarray(d if len(d) else '')
+        
+        arr = (arr * 255).astype(np.uint8)
+        
+        img = Image.fromarray(arr)
 
-        return feature
+        return img
          
         
     raise ValueError('{{"error": "unsupported content type {}"}}'.format(
