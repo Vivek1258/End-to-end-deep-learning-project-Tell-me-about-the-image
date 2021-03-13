@@ -75,7 +75,8 @@ For this project, I have used the BLUE score to check and compare the performanc
 
 I got to learn advanced machine learning techniques and algorithms and how to package and deploy trained models to a production environment. Gained practical experience using Amazon SageMaker to deploy trained models to a web application and evaluate the performance of the models. Also A/B testing on models and learned how to update the models as you gather more data, an important skill in industry. 
 
-![image](https://user-images.githubusercontent.com/53163419/109755751-9408f980-7c0c-11eb-8635-2f424f4db3b6.png)
+![image](https://user-images.githubusercontent.com/53163419/111025500-86bced80-840a-11eb-8fdb-8b8e1d3e7b74.png)
+
 
 
 
