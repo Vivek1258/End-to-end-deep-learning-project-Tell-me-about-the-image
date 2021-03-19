@@ -10,7 +10,7 @@
 
 - [Project Overview ](#Project-Overview )
 - [Output](#Output)
-- [Data](#Data)
+- [Data](#Data) 
 - [Algothrims](#Algothrims)
 - [Metrics](#Metrics)
 - [Machine Learning Nanodegree Graduation](#Machine-Learning-Engineer-Nanodegree)
@@ -45,7 +45,6 @@ The dataset used for this project is the “Flickr8K” dataset. Flickr8K datase
  - There are 5 captions for each photo.
  - The dataset is small and the size is 1.14 GB.
  - The dataset can be found at Kaggle
-
 
 link : https://www.kaggle.com/shadabhussain/flickr8k
 
