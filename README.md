@@ -59,10 +59,6 @@ First, I have extracted the features of an image by using CNN, and then we will 
 
 I have also used pre-trained models on a standard Imagenet dataset(provided in Keras) to develop the CNN encoder and GLOVE 200d embeddings for words to improve the performance of our language model.
 
-
-#### Thus this algorithm is a good example where we are using concepts like  Image Processing,  Natural Language Processing, and  Transfer learning.
-
- 
  
 ## Metrics
 
