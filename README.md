@@ -1,5 +1,5 @@
 
-# AIC(Automatic-Image-Captioning)- Bot
+# Tell Me about The Image 
 ### Machine Learning Engineer Nanodegree Capstone Project 
 
 ![Github License](https://img.shields.io/aur/license/android-studio)
