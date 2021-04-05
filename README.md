@@ -1,5 +1,5 @@
 
-# Tell Me about The Image 
+# Tell me about the Image 
 ### Machine Learning Engineer Nanodegree Capstone Project 
 
 ![Github License](https://img.shields.io/aur/license/android-studio)
