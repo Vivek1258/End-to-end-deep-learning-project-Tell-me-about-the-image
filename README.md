@@ -10,7 +10,7 @@ In this project, we will develop and deploy a Deep Learning model that can autom
 ``` 
 git clone https://github.com/Vivek1258/Automatic-Image-Captioning.git
 cd Automatic-Image-Captioning
-pip install requirements.txt
+pip install -r requirements.txt
 streamlit run app.py 
 ```
 
