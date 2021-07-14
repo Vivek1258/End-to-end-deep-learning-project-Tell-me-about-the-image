@@ -25,7 +25,7 @@
 
 In this project, I have developed a  web application that can automatically generate Captions for the given Image using Deep Learning. The Deep Learning Model is developed, trained, and deployed(as a REST API ) on AWS Cloud using  SageMaker, Lambda Function, S3 Storage, and API GateWay services. I have used Streamlit UI to develop the Frontend of the web app. The FrontEnd is deployed on Heroku Cloud.
 
-![image](https://user-images.githubusercontent.com/53163419/111028394-672ec080-841c-11eb-9a1b-2a4c3b1d1374.png)
+<!-- ![image](https://user-images.githubusercontent.com/53163419/111028394-672ec080-841c-11eb-9a1b-2a4c3b1d1374.png) -->
 
 
 
@@ -33,6 +33,9 @@ In this project, I have developed a  web application that can automatically gene
 ## Output 
  
 ![image](https://user-images.githubusercontent.com/53163419/111025710-f8e20200-840b-11eb-9146-5804ec82e4c7.png)
+
+
+![image](https://user-images.githubusercontent.com/53163419/125657142-f955628f-78a4-4f52-85b0-324e988bb5ca.png)
 
 
 
