@@ -60,12 +60,12 @@ I have used a combination of CNN(Convolutional Neural Network) and RNN(Recurrent
 
 ### Working 
 
-![image](https://user-images.githubusercontent.com/53163419/125924382-76c66c99-5622-488a-9eac-7df70e204a4c.png)
+![image](https://user-images.githubusercontent.com/53163419/125924674-daf406dd-d13f-466a-a426-37c5fa1de2a9.png)
+
 
 First, I have extracted the features of an image by using CNN, and then we will feed this feature vector to an LSTM language model that will generate captions.  (LSTM is a special kind of RNN, capable of learning long-term dependencies). 
 
 I have also used pre-trained models on a standard Imagenet dataset(provided in Keras) to develop the CNN encoder and GLOVE 200d embeddings for words to improve the performance of our language model.
-
  
 ## Metrics
 
