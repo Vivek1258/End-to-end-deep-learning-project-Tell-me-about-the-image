@@ -35,9 +35,9 @@ In this project, I have developed a  web application that can automatically gene
 ![image](https://user-images.githubusercontent.com/53163419/111025710-f8e20200-840b-11eb-9146-5804ec82e4c7.png)
 
 
-## Inference Service Architecture
+## Sagemaker Endpoint 
 
-![image](https://user-images.githubusercontent.com/53163419/125657142-f955628f-78a4-4f52-85b0-324e988bb5ca.png)
+![image](https://user-images.githubusercontent.com/53163419/125924056-41baf50d-7078-46f8-9a16-896fc64af6b6.png)
 
 
 ## Data 
