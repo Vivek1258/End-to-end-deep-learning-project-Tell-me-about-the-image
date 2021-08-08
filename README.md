@@ -53,7 +53,7 @@ link : https://www.kaggle.com/shadabhussain/flickr8k
 
 ## Algothrim
 
-I have used a combination of CNN(Convolutional Neural Network) and RNN(Recurrent Neural Network) to develop this system. i.e. The model we will have a CNN Encoder and an LSTM Decoder. As shown in the image bellow: 
+I have used a combination of CNN(Convolutional Neural Network) and RNN(Recurrent Neural Network) to develop this system. i.e. The model we will have a CNN Encoder and an LSTM Decoder. Referenced paper for the developement of the model : [Show and Tell: A Neural Image Caption Generator](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vinyals_Show_and_Tell_2015_CVPR_paper.pdf) As shown in the image bellow: 
 
 ![image](https://user-images.githubusercontent.com/53163419/110330610-f8302100-8043-11eb-8534-bbc082af77c9.png)
 
